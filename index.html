@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For company-car drivers and small employers in Ireland: every trip logged as business, commute or private, with a yearly record of business kilometres for BIK.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">BIK Logbook</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">BIK Logbook</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Your business kilometres on record — so the company car BIK band matches what you really drive</h1>
-    <p class="sub">For drivers of company cars and the small employers who provide them: each journey is logged as business, commute or private, with date, route and kilometres, and at year end you have a record of business kilometres to support the BIK calculation.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Service in preparation · No payment is accepted on this page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For drivers of company cars</p>
+      <h1 class="rise" style="--i:1" data-len="long">Your business kilometres on record&nbsp;<span class="soft">— so the company car BIK band matches what you really drive</span></h1>
+      <p class="rise" style="--i:2">For drivers of company cars and the small employers who provide them: each journey is logged as business, commute or private, with date, route and kilometres, and at year end you have a record of business kilometres to support the BIK calculation.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Service in preparation · No payment is accepted on this page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" fill="#0a1524" font-weight="600">company car</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" /><line x1="160" y1="340" x2="580" y2="340" stroke="#dde2ea" stroke-width="6" /><circle cx="160" cy="340" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="300" cy="340" r="16" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><circle cx="440" cy="340" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="580" cy="340" r="16" fill="#12397a" /><line x1="160" y1="460" x2="580" y2="460" stroke="#dde2ea" stroke-width="6" /><circle cx="160" cy="460" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="300" cy="460" r="16" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><circle cx="440" cy="460" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="580" cy="460" r="16" fill="#12397a" /><rect x="160" y="520" width="420" height="110" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><text x="190" y="585" font-size="32" fill="#0a1524" font-weight="600">logbook</text><rect x="700" y="280" width="320" height="360" fill="#dfe8f7" rx="20" /><line x1="740" y1="382" x2="850" y2="382" stroke="#b9c3d2" stroke-width="4" /><rect x="740" y="360" width="108" height="44" fill="#12397a" rx="22" stroke="#12397a" stroke-width="3" /><rect x="740" y="450" width="240" height="22" fill="#ffffff" rx="8" /><rect x="740" y="500" width="180" height="22" fill="#b9c3d2" rx="8" /><rect x="740" y="550" width="210" height="22" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Company cars</dd></div>
+      <div><dt>Trip</dt><dd>Every trip logged</dd></div>
+      <div><dt>Year</dt><dd>Business kilometres</dd></div>
+      <div><dt>App</dt><dd>In preparation</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Every trip logged</b><span>Date, start, destination, purpose and kilometres.</span><br><a class="btn" href="price.html" data-ev="feature_trips">I need this</a></div>
-      <div class="card"><b>Business, commute, private</b><span>Each trip marked, because commuting is not business.</span><br><a class="btn" href="price.html" data-ev="feature_type">I need this</a></div>
-      <div class="card"><b>Business km per year</b><span>Running total against the kilometre bands.</span><br><a class="btn" href="price.html" data-ev="feature_total">I need this</a></div>
-      <div class="card"><b>Year-end record</b><span>A dated logbook to keep for Revenue or your employer.</span><br><a class="btn" href="price.html" data-ev="feature_record">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Every trip</text><line x1="150" y1="280" x2="570" y2="280" stroke="#dde2ea" stroke-width="6" /><circle cx="150" cy="280" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="290" cy="280" r="16" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><circle cx="430" cy="280" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="570" cy="280" r="16" fill="#12397a" /><line x1="150" y1="400" x2="570" y2="400" stroke="#dde2ea" stroke-width="6" /><circle cx="150" cy="400" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="290" cy="400" r="16" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><circle cx="430" cy="400" r="16" fill="#ffffff" stroke="#12397a" stroke-width="4" /><circle cx="570" cy="400" r="16" fill="#12397a" /></svg></div>
+        <h3>Every trip logged</h3><p>Date, start, destination, purpose and kilometres.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_trips">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">not business</text><line x1="140" y1="322" x2="510" y2="322" stroke="#b9c3d2" stroke-width="4" /><rect x="140" y="300" width="108" height="44" fill="#ffffff" rx="22" stroke="#12397a" stroke-width="3" /><rect x="270" y="300" width="108" height="44" fill="#12397a" rx="22" stroke="#12397a" stroke-width="3" /><rect x="400" y="300" width="108" height="44" fill="#ffffff" rx="22" stroke="#12397a" stroke-width="3" /></svg></div>
+        <h3>Business, commute, private</h3><p>Each trip marked, because commuting is not business.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_type">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">per year</text><rect x="150" y="380" width="60" height="90" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="320" width="60" height="150" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="370" y="260" width="60" height="210" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="480" y="350" width="60" height="120" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Business km per year</h3><p>Running total against the kilometre bands.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_total">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Year-end record</text><rect x="180" y="210" width="420" height="280" fill="#ffffff" rx="16" stroke="#12397a" stroke-width="4" /><rect x="210" y="250" width="280" height="26" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="210" y="306" width="200" height="26" fill="#b9c3d2" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="210" y="362" width="240" height="26" fill="#dde2ea" rx="8" stroke="#dde2ea" stroke-width="2" /><circle cx="520" cy="250" r="22" fill="#12397a" /></svg></div>
+        <h3>Year-end record</h3><p>A dated logbook to keep for Revenue or your employer.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_record">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Sales rep in Cork with a company car. Each working day he logs his calls to customers in Munster; the drive from home to the office is marked as commuting, weekend trips as private. By October the running total shows 38,000 business kilometres, and at year end the logbook goes to his employer's payroll to support the BIK band used for his car.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Sales rep in Cork with a company car. Each working day he logs his calls to customers in Munster; the drive from home to the office is marked as commuting, weekend trips as private. By October the running total shows 38,000 business kilometres, and at year end the logbook goes to his employer's payroll to support the BIK band used for his car.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Cork</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">commuting</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">private</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" fill="#0a1524" font-weight="600">logbook</text><text x="170" y="560" font-size="32" fill="#566174">private</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>When an employer gives an employee a car that can also be used privately, the private use is a benefit in kind and is taxed through payroll. For company cars, the amount depends on the car's value, its emissions and the business kilometres driven in the year.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>When an employer gives an employee a car that can also be used privately, the private use is a benefit in kind and is taxed through payroll. For company cars, the amount depends on the car's value, its emissions and the business kilometres driven in the year.</p>
     <p>Business kilometres are the ones that lower the charge, so they need to be backed up. Revenue's guidance expects records such as a logbook showing the journeys, and commuting between home and the normal place of work does not count as business travel.</p>
     <p>Many drivers only start thinking about this when payroll asks for the year's business kilometres, and then try to rebuild the year from calendars and fuel receipts. The result is a guess that is hard to defend.</p>
     <p>The app keeps the logbook as you go. For each journey you record the date, where you started and where you went, the purpose of the trip and the kilometres. Regular destinations — customers, sites, the office — are saved, so logging a familiar trip takes a few taps.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Getting started takes a few minutes: your car, its registration and your usual destinations. It works in the browser on your phone, with nothing to install.</p>
     <p>The app is built for company-car drivers and small employers in Ireland. It is in preparation: we are checking whether drivers and employers need it before it is built.</p>
     <p>The app keeps your trip records; it is not tax advice, and the employer remains responsible for the BIK calculation in payroll.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Why do business kilometres matter for BIK?</h3>
-    <p>For company cars, the BIK charge depends partly on the business kilometres driven in the year, so they need to be recorded.</p>
-    <h3>Does the drive to the office count as business?</h3>
-    <p>No, commuting between home and your normal place of work is not business travel; the app marks it separately.</p>
-    <h3>What do I get at year end?</h3>
-    <p>A dated logbook as PDF and spreadsheet with every journey and the year's business kilometres.</p>
-    <h3>Is this tax advice?</h3>
-    <p>No. The app keeps your records; the employer remains responsible for the BIK calculation.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The app is in preparation, and we are checking whether drivers and employers need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Why do business kilometres matter for BIK?</h3><p>For company cars, the BIK charge depends partly on the business kilometres driven in the year, so they need to be recorded.</p></div>
+      <div class="split flip"><h3>Does the drive to the office count as business?</h3><p>No, commuting between home and your normal place of work is not business travel; the app marks it separately.</p></div>
+      <div class="split flip"><h3>What do I get at year end?</h3><p>A dated logbook as PDF and spreadsheet with every journey and the year's business kilometres.</p></div>
+      <div class="split flip"><h3>Is this tax advice?</h3><p>No. The app keeps your records; the employer remains responsible for the BIK calculation.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The app is in preparation, and we are checking whether drivers and employers need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your company car</h2>
-    <p><label>Business kilometres per year<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Under 24,000</option><option>24,000–40,000</option><option>40,000–48,000</option><option>Over 48,000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your company car</h2>
+    </div>
+    <div class="tile stack">
+      <label>Business kilometres per year<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Under 24,000</option><option>24,000–40,000</option><option>40,000–48,000</option><option>Over 48,000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>BIK Logbook</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Trip records for your company car. Not tax advice; the employer remains responsible for BIK in payroll.</p>
+  <p>Trip records for your company car. Not tax advice; the employer remains responsible for BIK in payroll.</p>
 </div></footer>
 
 </body>
